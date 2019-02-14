@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#3a48c6"
+    >
+
+
+    <ImageView
+        android:id="@+id/imgEducation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/education" />
+
+    <TextView
+        android:id="@+id/Education"
+        android:layout_width="106dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imgEducation"
+        android:layout_marginTop="119dp"
+        android:text="Education"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imgFlowers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgEducation"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/flowers" />
+
+
+    <ImageView
+        android:id="@+id/imgHacking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgEducation"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/hacking" />
+
+    <ImageView
+        android:id="@+id/imgLove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgSports"
+        android:src="@drawable/love" />
+
+    <ImageView
+        android:id="@+id/imgPhotography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgLove"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/photography" />
+
+    <ImageView
+        android:id="@+id/imgSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imgHacking"
+        android:layout_marginTop="177dp"
+        android:src="@drawable/sports" />
+
+    <ImageView
+        android:id="@+id/imgProgramming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imgEducation"
+        android:layout_marginBottom="111dp"
+        android:src="@drawable/programming" />
+
+    <ImageView
+        android:id="@+id/imgTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgHacking"
+        android:layout_alignTop="@+id/imgProgramming"
+        android:src="@drawable/top" />
+
+    <ImageView
+        android:id="@+id/imgTechnology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgTop"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/technology" />
+
+    <TextView
+        android:id="@+id/Programming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="75dp"
+        android:text="Programming"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Flowers"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/Hacking"
+        android:layout_toStartOf="@+id/imgHacking"
+        android:text="Flowers"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Hacking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgHacking"
+        android:layout_alignTop="@+id/Education"
+        android:text="Hacking"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgLove"
+        android:layout_marginStart="27dp"
+        android:text="Love"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Photography"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLove"
+        android:layout_centerHorizontal="true"
+        android:text="Photography"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Hacking"
+        android:layout_below="@+id/imgLove"
+        android:text="Sports"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Technology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Programming"
+        android:layout_centerHorizontal="true"
+        android:text="Technology"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Programming"
+        android:layout_alignStart="@+id/imgHacking"
+        android:text="Top Tags"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp" />
+</RelativeLayout>
